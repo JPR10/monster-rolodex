@@ -11,8 +11,8 @@ class App extends Component {
 
   componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users')
-    .then(response => response.json())
-    .then(user => this.setState({ monster: user }));
+      .then(response => response.json())
+      .then(user => this.setState({ monster: user }));
   }
 
   render() {
@@ -21,7 +21,8 @@ class App extends Component {
         {
           this.state.monster.map(monster => (
             <h1 key={monster.id}>{monster.name}</h1>
-        ))}
+          ))
+        }
       </div>
     )
   }
