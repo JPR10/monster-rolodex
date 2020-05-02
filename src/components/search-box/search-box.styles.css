@@ -4,6 +4,9 @@
     outline: none;
     padding: 10px;
     width: 150px;
-    line-height: 30px;
     margin-bottom: 30px;
+    background-color: #95dada;
+    border-radius: 5px;
+    padding-left: 15px;
+    height: 35px;
   }
